@@ -34,7 +34,7 @@ The code is built with following libraries:
 
 Supported Distributed Training
 
-You modify the config (e.g. ***configs/swin_image.yaml***) to choose or define your model for training
+You can modify the config (e.g. ***configs/swin_image.yaml***) to choose or define your model for training
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchpack dist-run -np 4 python train_img_single.py configs/swin_image.yaml --run-dir nbenchmark/swin_sce # 4 gpus
