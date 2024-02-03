@@ -51,14 +51,15 @@ python train_img_single.py configs/swin_image.yaml --run-dir nbenchmark/swin_sce
 ```
 
 ```
-python train_img2.py configs/quickdraw/sd3b1_image_stroke.yaml --run-dir nbenc
-hmark/trans/resnet50_quickdraw_image_stroke_sd3b1_norm/ --distributed False
+python train_img2.py configs/quickdraw/sd3b1_image_stroke.yaml --run-dir nbenchmark/trans/resnet50_quickdraw_image_stroke_sd3b1_norm/ --distributed False
 ```
 
 
 
 # Citation
 
+> 
 
+# Issues
 
 If you have any problems, feel free to reach out to me in the issue.
