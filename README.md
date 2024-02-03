@@ -9,6 +9,9 @@ This is the official implementation of "***Sketch-SparseNet***: A Novel Sparse-c
 - [x] Mobilenet
 - [x] DenseNet
 - [x] Swin Transformer
+- [x] GNN
+- [x] RNN
+- [x] Transformer
 
 ## Supported Datasets
 
