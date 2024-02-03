@@ -1,0 +1,39 @@
+data:
+  num_classes: 100
+  ignore_label: 700
+  training_size: 50000
+
+train:
+  seed: 1588147245
+  deterministic: False
+
+dataset:
+  name: cifarimgdata
+  root: /media/star/zjurobot/403/yangjingru/dataset/sequences
+  num_points: 80000
+  voxel_size: 1
+
+num_epochs: 20 # 60
+batch_size: 128
+
+criterion:
+  name: mmd_lossv5
+  ignore_index: 700
+
+optimizer:
+  name: sgd
+  lr: 0.03
+  weight_decay: 1.0e-4
+  momentum: 0.9
+  nesterov: true
+
+scheduler:
+  name: cosine_warmup
+
+model:
+  name: SD3Bmerge50
+
+workers_per_gpu: 12
+distributed: True
+amp_enabled: False
+
